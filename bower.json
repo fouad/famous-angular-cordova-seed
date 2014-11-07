@@ -1,0 +1,16 @@
+{
+  "name": "facs",
+  "private": "true",
+  "dependencies": {
+    "angular": "~1.2.26",
+    "famous": "~0.3.0",
+    "famous-angular": "~0.5.0",
+    "ngCordova": "~0.1.7-alpha",
+    "angular-ui-router": "~0.2.11",
+    "ionic": "~0.9.27"
+  },
+  "resolutions": {
+    "angular": "~1.2.26",
+    "angular-ui-router": "~0.2.11"
+  }
+}

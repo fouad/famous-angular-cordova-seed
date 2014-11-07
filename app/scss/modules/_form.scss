@@ -1,0 +1,42 @@
+input {
+  display: block;
+  width: 100%;
+  padding: 24px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  color: rgba(255,255,255,.85);
+  background: rgba(255,255,255,.25);
+  border: 2px solid transparent;
+  border-radius: 4px;
+  transition: border .3s ease-out;
+  -webkit-appearance: none;
+
+  &.bare {
+    display: inline-block;
+    width: 120px;
+    padding: 8px;
+    border: 0;
+    font-size: 16px;
+    font-weight: 100;
+    background: none;
+    transition: background .3s ease-out;
+
+    &:focus {
+      background: rgba(0,0,0,.25);
+    }
+  }
+}
+
+input:focus {
+  outline: none;
+  box-shadow: none;
+  border-color: #246EE9;
+}
+
+input::-webkit-input-placeholder {
+  color: rgba(255,255,255,.45);
+}
+
+label {
+  font-size: 16px;
+}

@@ -1,0 +1,15 @@
+.prompt {
+  text-align: center;
+  line-height: 200px;
+  background: rgba(255,255,255,.45);
+  cursor: pointer;
+  transition: background .3s ease-out;
+
+  &:hover {
+    background: rgba(255,255,255,.65);
+  }
+
+  &:active {
+    background: rgba(255,255,255,.55); 
+  }
+}

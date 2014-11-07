@@ -1,0 +1,64 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Regular.ttf') format('truetype');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-Medium.ttf') format('truetype');
+  font-weight: 500;
+}
+
+body {
+  font-family: 'Roboto', 'Helvetica Neue';
+  color: rgba(255,255,255,.75);
+}
+
+h1, h2, h3, h4, h5 {
+  margin-top: 0;
+  font-weight: 400;
+}
+
+span, p {
+  color: rgba(255,255,255,.75);
+}
+
+label {
+  color: rgba(255,255,255,.45);
+}
+
+.dark {
+  color: rgba(100,100,100,.45);
+}
+
+.light {
+  color: rgba(255,255,255,.55);
+  font-weight: 100;
+
+  span {
+    color: rgba(255,255,255,.75);
+    font-weight: 400;
+  }
+}
+
+.icon-surface {
+  h1, h2, h3, h4 {
+    text-align: center;
+    line-height: 120px;
+  }
+}
+
+.text-left           { text-align: left; }
+.text-right          { text-align: right; }
+.text-center         { text-align: center; }
+
+.text-error {
+  color: rgba(246,153,136,.75);
+}

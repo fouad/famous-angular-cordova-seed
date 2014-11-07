@@ -1,0 +1,15 @@
+<fa-app class="full-screen">
+  <fa-surface fa-size="[undefined, undefined]" fa-background-color="'#cc3333'"></fa-surface>
+  <fa-modifier fa-origin="[.5, .5]" fa-align="[.5, .1]" fa-scale="">
+    <fa-surface fa-size="[true, true]" class="text-center">
+      Welcome to Famo.us/Angular!
+      <br>
+      <select ng-change="switchDemo(demo)" ng-model="demo">
+        <option value="circles">Circles</option>
+        <option value="prompt">Prompt</option>
+      </select>
+    </fa-surface>
+  </fa-modifier>
+
+  <ng-include src="demoTemplate"></ng-include>
+</fa-app>
