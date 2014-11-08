@@ -1,9 +1,9 @@
 <fa-modifier fa-origin="[.1, .5]" fa-align="[.1, .3]" ng-controller="CircleCtrl">
-  <fa-modifier ng-repeat="circle in circles"
-    fa-scale="circle.scale.get()"
-    fa-translate="circle.translate.get()">
-    <fa-surface fa-size="circleSize" class="circle">
-
-    </fa-surface>
+  <fa-modifier
+    fa-scale="circleScale.get()">
+    <fa-modifier ng-repeat="circle in circles" fa-translate="circle.translate.get()">
+      <fa-surface fa-size="circleSize" class="circle">
+      </fa-surface>
+    </fa-modifier>
   </fa-modifier>
 </fa-modifier>
